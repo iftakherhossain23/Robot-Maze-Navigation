@@ -1,5 +1,5 @@
 ;*****************************************************************
-;* COE538 Final Project                                          *
+;* eebot Maze Navigation                                         *
 ;* Iftakher Hossain, Piyush Patel                                *
 ;*****************************************************************
               XDEF Entry, _Startup ;
