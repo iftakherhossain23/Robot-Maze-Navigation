@@ -7,7 +7,7 @@ Software subroutines and a finite state machine were developed in assembly progr
 
 The maze, shown below, consisted of a black taped line forming several turns and intersections.
 
-![image](https://github.com/user-attachments/assets/259a903a-2d9e-4f46-801c-68e747fda4d9)
+![410118677-259a903a-2d9e-4f46-801c-68e747fda4d9](https://github.com/user-attachments/assets/90c0f97b-b7a0-467e-8059-be2d94cd3e61)
 
 ## Algorithm
 The _eebot_ begins its navigation with the actuation of the front bumper, initiating movement in the forward state following a finite state machine (FSM) architecture. As it moves, its sensors detect the maze path and continuously send readings to the program, enabling real-time adjustments based on a negative feedback system. Each sensor has a threshold and tolerance range, allowing the bot to remain aligned with the maze path. When approaching turns, the bot detects deviations from the black line and adjusts its bearing accordingly. At intersections, it evaluates sensor readings to determine its position and selects the leftmost path by default. If it encounters a dead end, the bumper actuation triggers a reversal and re-navigation to the previous intersection, allowing the bot to take the correct path.
